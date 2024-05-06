@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let number = prompt("Enter a positive number:");
+
+
+number = Number(number);
+
+
+if (number > 0) {
+  if (number % 3 === 0 || number % 7 === 0) {
+    alert(number + " is a multiple of 3 or 7");
+  } else {
+    alert(number + " is not a multiple of 3 or 7");
+  } 
+  
+} else {
+  alert("Please enter a positive number.");
+}
+ 
+    </script>
+</body>
+</html>
